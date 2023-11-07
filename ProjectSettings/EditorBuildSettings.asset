@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: 909c3ac2afc5d344fb4d9bd28927a989
+  - enabled: 1
+    path: Assets/Scenes/BadEndingTitleScreen.unity
+    guid: b0283fce7c251b84da80fe25cd4636c1
   m_configObjects: {}
