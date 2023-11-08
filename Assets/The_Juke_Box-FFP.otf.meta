@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e32a1a14dd08d3d4ab8e5c14229b62dc
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - The Juke Box
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b1426bbfb7ada72418ff050bf099b1ad, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
