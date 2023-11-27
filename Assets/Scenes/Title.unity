@@ -4130,6 +4130,9 @@ GameObject:
   - component: {fileID: 1528825483}
   - component: {fileID: 1528825482}
   - component: {fileID: 1528825488}
+  - component: {fileID: 1528825490}
+  - component: {fileID: 1528825489}
+  - component: {fileID: 1528825491}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4177,6 +4180,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1528825447}
   commandList:
+  - {fileID: 1528825491}
   - {fileID: 1528825464}
   - {fileID: 1528825488}
   - {fileID: 1528825451}
@@ -4227,7 +4231,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1528825448}
   selectedCommands:
-  - {fileID: 1528825464}
+  - {fileID: 1528825491}
   variables: []
   description: 
   stepPause: 0
@@ -5000,6 +5004,8 @@ MonoBehaviour:
   - {fileID: 1528825485}
   - {fileID: 1528825484}
   - {fileID: 1528825483}
+  - {fileID: 1528825490}
+  - {fileID: 1528825489}
   - {fileID: 1528825482}
   suppressAllAutoSelections: 0
 --- !u!114 &1528825488
@@ -5015,6 +5021,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 35
+  indentLevel: 0
+--- !u!114 &1528825489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528825446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+--- !u!114 &1528825490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528825446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+--- !u!114 &1528825491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528825446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
   indentLevel: 0
 --- !u!1 &1552194527
 GameObject:
