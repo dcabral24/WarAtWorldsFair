@@ -56351,7 +56351,7 @@ GameObject:
   - component: {fileID: 1141155101}
   - component: {fileID: 1141155102}
   m_Layer: 0
-  m_Name: Vulture
+  m_Name: Vincent Vulture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56385,7 +56385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Vulture
+  nameText: Vincent Vulture
   nameColor: {r: 0.2924528, g: 0.009656467, b: 0.02084371, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
