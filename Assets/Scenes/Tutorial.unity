@@ -2446,6 +2446,8 @@ GameObject:
   - component: {fileID: 196478922}
   - component: {fileID: 196478921}
   - component: {fileID: 196478920}
+  - component: {fileID: 196478927}
+  - component: {fileID: 196478928}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2466,7 +2468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 318.93008, y: 121.2308}
+  scrollPos: {x: 297.7537, y: -201.12216}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
@@ -2478,8 +2480,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 196478084}
-  selectedCommands: []
+  - {fileID: 196478596}
+  selectedCommands:
+  - {fileID: 196478928}
   variables:
   - {fileID: 196478036}
   - {fileID: 196478069}
@@ -14131,6 +14134,7 @@ MonoBehaviour:
   - {fileID: 196478714}
   - {fileID: 196478776}
   - {fileID: 196478775}
+  - {fileID: 196478927}
   - {fileID: 196478256}
   - {fileID: 196478255}
   - {fileID: 196478308}
@@ -35245,6 +35249,7 @@ MonoBehaviour:
   - {fileID: 196478617}
   - {fileID: 196478783}
   - {fileID: 196478785}
+  - {fileID: 196478928}
   - {fileID: 196478786}
   - {fileID: 196478618}
   - {fileID: 196478599}
@@ -42421,7 +42426,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 748568919}
+    gameObjectVal: {fileID: 499378591}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -42578,8 +42583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 843
   indentLevel: 1
-  storyText: Squack! (Ay howz it buzzin' couzin'. It's me, ya brotha from anotha
-    motha.)
+  storyText: Squack. Squack. (Ay howz it buzzin' couzin'. It's me, ya brotha from
+    anotha motha.)
   description: 
   character: {fileID: 1141155102}
   portrait: {fileID: 0}
@@ -42635,8 +42640,7 @@ MonoBehaviour:
   itemId: 847
   indentLevel: 1
   storyText: Squack! (Just flew in from New York and I tells ya I'm so hungry I could
-    eat a horse! Would you do me a favor and get me some delectable seeds? Ya do
-    owe me from that once favor I did for you that one time)
+    eat a horse!)
   description: 
   character: {fileID: 1141155102}
   portrait: {fileID: 0}
@@ -50499,6 +50503,55 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &196478927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196478017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 985
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 748568919}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &196478928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196478017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 986
+  indentLevel: 1
+  storyText: Squack? Squack. (Would ya be a doll and get me some seeds? Ya do owe
+    me for that one time you came to the Big Apple)
+  description: 
+  character: {fileID: 1141155102}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &206197867
 GameObject:
   m_ObjectHideFlags: 0

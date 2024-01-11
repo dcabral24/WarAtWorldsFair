@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 704e4bbb2a108d942bd7ba027e199aa3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Brianne's hand
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 46425216b4a025349b803b186e6f8b92, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
